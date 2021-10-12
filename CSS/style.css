@@ -14,6 +14,40 @@
   background-color: #3a546d;
 }
 
+._btn{
+  margin-top: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+._btn:hover{
+  background-color: white;
+  color: black;
+}
+
+._line{
+  height: 3px;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+._bg-white{
+  background-color: white;
+}
+
+._bg-black{
+  background-color: black;
+}
+
+.fa-star{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
 /* HEADER */
 ._header-top{
   height: 80px;
@@ -58,35 +92,47 @@
 }
 
 ._inner-junbo{
-  background-color: thistle;
   width: 800px;
   max-width: 80%;
   margin: 0 auto;
 }
 
-/* MAIN */
-._portfolio{
-  min-height: 500px;
+._content-junbo{
+  padding: 30px 0;
 }
+
+._content-junbo img{
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+/* MAIN */
 
 ._container-60{
   width: 60%;
   margin: 0 auto;
 }
 
-._square{
+/* portfolio */
+._portfolio{
+  min-height: 500px;
+}
+
+._box{
   margin: 10px;
 }
 
-._square img{
+._box img{
   width: 100%;
   border-radius: 10px;
 }
 
+/* about */
 ._about{
   color: white;
 }
 
+/* contact */
 form{
   padding-top: 20px;
 }
@@ -102,8 +148,28 @@ form{
   border-color: #1ABC9C;
 }
 
+/* FOOTER */
 ._info{
-  min-height: 150px;
+  color: white;
+}
+
+._info ._social i{
+font-size: 20px;
+border: 1px solid white;
+border-radius: 50%;
+padding: 3%;
+margin: 0 5px;
+cursor: pointer;
+}
+
+._info p a{
+  text-decoration: none;
+  color: #1abc9c;
+}
+
+._info p a:hover{
+  color: #1a8b75;
+  border-bottom: 1px solid #1a8b75;
 }
 
 ._copyright{
