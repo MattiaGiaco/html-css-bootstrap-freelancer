@@ -18,6 +18,7 @@
   height: 80px;
   color: white;
 }
+
 ._junbotron{
   color: white;
   margin-top: 80px;
@@ -35,23 +36,37 @@
   min-height: 500px;
 }
 
-._about{
-  color: white;
-}
-
 ._container-60{
   width: 60%;
   margin: 0 auto;
 }
 
 ._square{
-  height: 300px;
   margin: 10px;
-  background-color: springgreen;
 }
 
-._contact{
-  min-height: 200px;
+._square img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+._about{
+  color: white;
+}
+
+form{
+  padding-top: 20px;
+}
+
+.dt-custom-border{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
+}
+
+.dt-bg-green{
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
 }
 
 ._info{
