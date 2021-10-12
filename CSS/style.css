@@ -1,36 +1,66 @@
-._header-top{
+._py-50{
+  padding: 50px 0;
+}
+
+._bg-blue{
   background-color: #2c3e50;
+}
+
+._bg-green{
+  background-color: #1abc9c;
+}
+
+._bg-lightblue{
+  background-color: #3a546d;
+}
+
+._header-top{
+  height: 80px;
   color: white;
 }
-._junbo, ._about{
-  background-color: #1abc9c;
+._junbotron{
   color: white;
+  margin-top: 80px;
   min-height: 300px;
 }
 
-._main-top{
-  background-color: slategray;
+._inner-junbo{
+  background-color: thistle;
+  width: 800px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+._portfolio{
   min-height: 500px;
 }
 
+._about{
+  color: white;
+}
+
+._container-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
 ._square{
-  width: 100%;
-  height: 200px;
-  margin-top: 20px;
+  height: 300px;
+  margin: 10px;
   background-color: springgreen;
 }
 
 ._contact{
-  background-color: slategray;
   min-height: 200px;
 }
 
 ._info{
-  background-color: tan;
   min-height: 150px;
 }
 
 ._copyright{
-  background-color: thistle;
   min-height: 60px;
+  padding: 30px 0;
+  color: white;
+  text-align: center;
 }
