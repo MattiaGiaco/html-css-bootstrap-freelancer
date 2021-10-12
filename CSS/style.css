@@ -14,11 +14,43 @@
   background-color: #3a546d;
 }
 
+/* HEADER */
 ._header-top{
   height: 80px;
   color: white;
 }
 
+._menu-title h3{
+  line-height: 80px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+._li-menu li{
+  line-height: 80px;
+  padding: 0 10px;
+}
+
+._li-menu li a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+._li-menu li a:hover{
+  border-bottom: 1px solid white;
+}
+
+.fas.fa-bars{
+  font-size: 25px;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* junbotron */
 ._junbotron{
   color: white;
   margin-top: 80px;
@@ -32,6 +64,7 @@
   margin: 0 auto;
 }
 
+/* MAIN */
 ._portfolio{
   min-height: 500px;
 }
